@@ -28,4 +28,4 @@ User [Github Name]
 16. Save file and exit using command O to save, then command X to exit.
 
 
-17. Run command: ssh git@github.com -T (This successfully authenticates connection between local host and remote host)
+17. Run command: ssh git@github.com -T (This successfully authenticates connection between local host and remote host)Testing
