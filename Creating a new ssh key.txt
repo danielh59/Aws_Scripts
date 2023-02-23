@@ -1,5 +1,6 @@
 ﻿Creating a new ssh key
 
+*Run command: ~/.ssh first. This will navigate you to your ssh folder. This is where you will save your keys*
 
 1. Run command:  ssh-keygen -T ed25519 -C “comment name”
 * First prompt is for ssh key name
@@ -16,7 +17,7 @@
 9. Paste your key into the description (make sure the beginning of your key starts with ‘ssh’
 10. Click Add SSH key
 11. Go back to terminal and run command: chmod 400 {private key name}
-12. Ssh-add {private key} (This authenticates the ssh key with our ssh agent)
+12. Run command: Ssh-add {private key} (This authenticates the ssh key with our ssh agent)
 13. Run Command: touch config  && chmod 600 config
 14. Run Command: nano config
 15. Type in the following information in config file: 
