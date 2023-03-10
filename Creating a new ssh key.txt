@@ -2,7 +2,7 @@
 
 *Run command: ~/.ssh first. This will navigate you to your ssh folder. This is where you will save your keys*
 
-1. Run command:  ssh-keygen -T ed25519 -C “comment name”
+1. Run command:  ssh-keygen -t ed25519 -C “comment name”
 * First prompt is for ssh key name
 * Next prompt is for password (optional)
 
@@ -24,7 +24,7 @@
 Host Github
 User [Github Name]
         Port 22 (For ssh)
-        IdentifyFile ~/.ssh/”(your private Github key)”
+        IdentityFile ~/.ssh/”(your private Github key)”
         HostName https://www.github.com/
 16. Save file and exit using command O to save, then command X to exit.
 
