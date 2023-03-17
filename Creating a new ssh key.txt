@@ -24,7 +24,7 @@
 Host Github
 User [Github Name]
         Port 22 (For ssh)
-        IdentityFile ~/.ssh/”(your private Github key)”
+        IdentityFile ~/.ssh/"(your private Github key)"
         HostName https://www.github.com/
 16. Save file and exit using command O to save, then command X to exit.
 
