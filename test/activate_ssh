@@ -1,0 +1,12 @@
+#!/usr/bin/sh
+
+#signing in to ssh-agent and add github/gitlab keys
+
+eval `ssh-agent -s`
+
+cd ~/.ssh/ && ssh-add github_key && ssh-add gitlab_key
+
+ssh git@github.com -T
+
+cd ~
+
